@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            background-image: url(https://www.shutterstock.com/image-illustration/panoramic-side-view-asphalt-road-260nw-2254224151.jpg);
+            background-size: cover;
+            animation: image 15s reverse infinite;
+            overflow: hidden;
+
+        }
+        @keyframes image{
+            0%{
+                background-position: 0px;           
+             }
+            100%{
+                background-position: 6000px;            
+                
+            }
+        }  
+        .img{
+            width: 100px;
+            margin-top: 300px;
+            animation: bike 5s linear infinite;
+            transition-timing-function: 5;
+            transition-duration: 5;
+        }
+        .img2{
+            width: 150px;
+            animation: img2 4s linear infinite;
+            margin-left: -50px;
+            margin-bottom: -50px;
+        }
+        
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <img class="img" src="https://www.svgrepo.com/show/66336/bike-rider-side-view.svg" alt="">
+    <img class="img2" src="https://www.svgrepo.com/show/442862/bike-tandem.svg" alt="">
+</body>
+</html>
